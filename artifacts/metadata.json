@@ -1,0 +1,48 @@
+{
+  "accuracy": 1.0,
+  "train_size": 1200,
+  "test_size": 300,
+  "vocab_size": 3142,
+  "classes": [
+    "Cybersecurity",
+    "Data & AI",
+    "DevOps & Cloud",
+    "Product Management",
+    "Software Engineering"
+  ],
+  "fit_seconds": 0.27,
+  "trained_at": "2026-10-19 10:41:51",
+  "report": {
+    "Cybersecurity": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Data & AI": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "DevOps & Cloud": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Product Management": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Software Engineering": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    }
+  },
+  "note": "D\u1eef li\u1ec7u synthetic: \u0111\u1ed9 ch\u00ednh x\u00e1c cao kh\u00f4ng \u0111\u1ea3m b\u1ea3o hi\u1ec7u n\u0103ng tr\u00ean CV th\u1eadt."
+}

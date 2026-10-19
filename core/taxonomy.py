@@ -1,0 +1,9 @@
+"""Phân loại kỹ năng cho 5 domain công nghệ."""
+TAXONOMY = {
+    "Software Engineering": ["python", "java", "javascript", "typescript", "react", "node.js", "spring boot", "microservices", "rest api", "graphql", "sql", "postgresql", "mongodb", "redis", "git", "unit testing", "design patterns", "c++", "go", "html", "css", "agile"],
+    "Data & AI": ["python", "pytorch", "tensorflow", "scikit-learn", "pandas", "numpy", "machine learning", "deep learning", "nlp", "computer vision", "spark", "sql", "mlops", "feature engineering", "transformers", "data pipelines", "airflow", "statistics", "recommender systems", "tableau"],
+    "DevOps & Cloud": ["kubernetes", "docker", "terraform", "ansible", "aws", "azure", "gcp", "ci/cd", "jenkins", "github actions", "prometheus", "grafana", "linux", "helm", "bash", "monitoring", "infrastructure as code", "argocd", "nginx", "site reliability"],
+    "Product Management": ["roadmap", "user stories", "stakeholder management", "a/b testing", "okrs", "product discovery", "jira", "market research", "backlog prioritization", "go-to-market", "product analytics", "wireframing", "figma", "customer interviews", "kpi", "scrum", "pricing strategy"],
+    "Cybersecurity": ["penetration testing", "siem", "incident response", "owasp", "vulnerability assessment", "threat modeling", "splunk", "firewall", "iso 27001", "soc", "malware analysis", "encryption", "iam", "nmap", "burp suite", "zero trust", "forensics", "compliance"],
+}
+ALL_SKILLS = sorted({s for v in TAXONOMY.values() for s in v})
